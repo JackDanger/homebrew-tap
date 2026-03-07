@@ -7,20 +7,20 @@ class Tdorr < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/JackDanger/tdorr/releases/download/v0.4.0/tdorr-macos-aarch64.tar.gz"
-      sha256 "087d00b51154f79b7c2f1d155e2912d352376f1ddbb97a91283119f85fca32fb"
+      sha256 "6b9ba095b79fd7ab6d91f499c2b312682f6d48e0619c7216111dd63af8149600"
     else
       url "https://github.com/JackDanger/tdorr/releases/download/v0.4.0/tdorr-macos-x86_64.tar.gz"
-      sha256 "2ce8e4c0a5a07c17718688f1c650df1d5ca0b8063bcbe0cdbcf5a9c9396f3559"
+      sha256 "f1ff7769bc7aaa663cc6becf40989667e03e35f36551721792107979e8951abb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/JackDanger/tdorr/releases/download/v0.4.0/tdorr-linux-aarch64.tar.gz"
-      sha256 "abc93568569875db8bd1f7b9bfe321b57b12a9524696248c39ea3c835433683f"
+      sha256 "2b8935b318c6b416fcc6cb44507b95f0cba169731b51c7a51e8d306061c172e9"
     else
       url "https://github.com/JackDanger/tdorr/releases/download/v0.4.0/tdorr-linux-x86_64.tar.gz"
-      sha256 "c7030edff7bf0aca34b34cdb417aaf3063063c769544b469c4fb7aa98a317aaa"
+      sha256 "f523a92fad334f9940b91575e61447567f2455712d6977025c797e73ec9aa08c"
     end
   end
 
