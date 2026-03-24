@@ -1,26 +1,26 @@
 class Tdorr < Formula
   desc "GPU-accelerated media transcoder (HEVC/h265 via NVENC, VAAPI, VideoToolbox)"
   homepage "https://github.com/JackDanger/tdorr"
-  version "4.1.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/JackDanger/tdorr/releases/download/v4.1.0/tdorr-macos-aarch64.tar.gz"
-      sha256 "9ee69049516fec757dd5dd1f4a3408661df9a96dc4d788bc21ef6177688fac83"
+      url "https://github.com/JackDanger/tdorr/releases/download/v0.6.0/tdorr-macos-aarch64.tar.gz"
+      sha256 "a915e04dc60bcc3268acbb72e85846c74a41787c45453070b13c24cac4f1992d"
     else
-      url "https://github.com/JackDanger/tdorr/releases/download/v4.1.0/tdorr-macos-x86_64.tar.gz"
-      sha256 "1a2c0ce3dde8829c05f7c1d3623e1a07337879105e8e186fb60b12277ca73f2b"
+      url "https://github.com/JackDanger/tdorr/releases/download/v0.6.0/tdorr-macos-x86_64.tar.gz"
+      sha256 "ed24edb30e066c9908f2b64c0da03aef5ee5a7de3dd5a509f717e1ea96ead115"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/JackDanger/tdorr/releases/download/v4.1.0/tdorr-linux-aarch64.tar.gz"
-      sha256 "efd29e4db87f974bdf21412522dc4d51f0353ee6dcb78f99ff2198a1c5632320"
+      url "https://github.com/JackDanger/tdorr/releases/download/v0.6.0/tdorr-linux-aarch64.tar.gz"
+      sha256 "09badbc61e5f223d4d1bc1b5c212e991d1532de91c6ccb48705e0c2dd5943513"
     else
-      url "https://github.com/JackDanger/tdorr/releases/download/v4.1.0/tdorr-linux-x86_64.tar.gz"
-      sha256 "795623a5a08ff10b53936acdfe38ae80a19f03ecceef5ade29bb10eefbb67191"
+      url "https://github.com/JackDanger/tdorr/releases/download/v0.6.0/tdorr-linux-x86_64.tar.gz"
+      sha256 "33e036aa96f705ecea15fa0752509f96aa06efac30f510005dc8a00cb341e11d"
     end
   end
 
