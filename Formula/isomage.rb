@@ -2,25 +2,25 @@ class Isomage < Formula
   desc "Browse and extract files from ISO images without mounting them"
   homepage "https://github.com/JackDanger/isomage"
   license "MIT"
-  version "0.4.0"
+  version "1.0.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/JackDanger/isomage/releases/download/v0.4.0/isomage-macos-arm64.tar.gz"
-      sha256 "67895e295e45214eaadbea7f79cdcdb96c4b17d21e3bdb9d5df2a5c898ad6514"
+      url "https://github.com/JackDanger/isomage/releases/download/v1.0.0/isomage-macos-arm64.tar.gz"
+      sha256 "b4cfbe7b8f1b8e0a94466d4b2dba36ca31f9efc22396dc54807f84346a984b08"
     else
-      url "https://github.com/JackDanger/isomage/releases/download/v0.4.0/isomage-macos-x86_64.tar.gz"
-      sha256 "143d52a09e911a2556c463ea79c570e9cf113e11d2af58bc64726dc70a270484"
+      url "https://github.com/JackDanger/isomage/releases/download/v1.0.0/isomage-macos-x86_64.tar.gz"
+      sha256 "b14ed6d4b8b3d6b087f071cb4462ef67e305de2775901d6689a5e93713784290"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/JackDanger/isomage/releases/download/v0.4.0/isomage-linux-arm64.tar.gz"
-      sha256 "6c57efa724da45000bfc56a3e58ee2200e1425517c171ef489e8be821ba37340"
+      url "https://github.com/JackDanger/isomage/releases/download/v1.0.0/isomage-linux-arm64.tar.gz"
+      sha256 "4297389d548d166db837796d77c9af93ba8481e72e1b579ba69dd7f04b810815"
     else
-      url "https://github.com/JackDanger/isomage/releases/download/v0.4.0/isomage-linux-x86_64.tar.gz"
-      sha256 "6a7abbca817e82fd66af554b38c5a45f52f97418c066a77134982d35b1d72786"
+      url "https://github.com/JackDanger/isomage/releases/download/v1.0.0/isomage-linux-x86_64.tar.gz"
+      sha256 "bc8ce4513bfd627e61df03a6d64a8e28018e55ef750538aa0d38d762133ccad5"
     end
   end
 
