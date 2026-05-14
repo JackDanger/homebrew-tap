@@ -1,26 +1,26 @@
 class Hvac < Formula
   desc "GPU-accelerated media transcoder (HEVC/h265 via NVENC, VAAPI, VideoToolbox)"
   homepage "https://github.com/JackDanger/hvac"
-  version "5.2.5"
+  version "5.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/JackDanger/hvac/releases/download/v5.2.5/hvac-macos-aarch64.tar.gz"
-      sha256 "52121fae1cf4140eeb774f2c223ae1b1a0a8921810ba84e16e6117eb7684609c"
+      url "https://github.com/JackDanger/hvac/releases/download/v5.4.0/hvac-macos-aarch64.tar.gz"
+      sha256 "3d1f6e0d3afd8356598218fe764eb6052349505e79b2d434ffbf6e840bee8254"
     else
-      url "https://github.com/JackDanger/hvac/releases/download/v5.2.5/hvac-macos-x86_64.tar.gz"
-      sha256 "bc161b0f0dbacde79c3c61163fc02341541cebeaa439e8bca59e0ccbf4b2870c"
+      url "https://github.com/JackDanger/hvac/releases/download/v5.4.0/hvac-macos-x86_64.tar.gz"
+      sha256 "df0f48154d7dcb0237682323bf94bc6fc2d2961c2eb51e0d660c6092ed71ca4f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/JackDanger/hvac/releases/download/v5.2.5/hvac-linux-aarch64.tar.gz"
-      sha256 "edeb7540a4e70ccd08a4073b8e0574ac90e5b1433cc23e9a615474ca71bf3b4a"
+      url "https://github.com/JackDanger/hvac/releases/download/v5.4.0/hvac-linux-aarch64.tar.gz"
+      sha256 "3f20831761092a887fae2d752f76975594b5ac0b392bf62ba7f2c04aa2b8b63b"
     else
-      url "https://github.com/JackDanger/hvac/releases/download/v5.2.5/hvac-linux-x86_64.tar.gz"
-      sha256 "90370fd64e4d2d97c2631114d7e74124acfc75f0eceebf3fc9380a84dd576825"
+      url "https://github.com/JackDanger/hvac/releases/download/v5.4.0/hvac-linux-x86_64.tar.gz"
+      sha256 "d2e17d493d686e797a530b9124511a330e91b78948759e8e6521b21716c4fc4d"
     end
   end
 
