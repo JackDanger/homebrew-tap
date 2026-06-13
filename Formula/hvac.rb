@@ -28,7 +28,7 @@ class Hvac < Formula
 
   def install
     bin.install "hvac"
-    etc.install "config.yaml" => "hvac/config.yaml"
+    (etc/"hvac").install "config.yaml"
   end
 
   def caveats
